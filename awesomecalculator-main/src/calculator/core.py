@@ -13,3 +13,9 @@ class Calculator:
 
     def Divide(self, value1, value2):
         return value1 / value2
+
+    def square_root(self,num):
+        return math.sqrt(num)
+    
+    def percentage(self, value, percentage):
+        return ((value*percentage)/100)
