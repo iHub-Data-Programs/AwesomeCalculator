@@ -6,7 +6,7 @@ class Calculator:
 
     # This function can add unlimited any of number
     def Add_(self, *values):
-        return sum(values)
+        return math.sum(values)
 
     def Substract(self, value1, value2):
         return value1 - value2
@@ -22,7 +22,7 @@ class Calculator:
         return math.sqrt(num)
         
     # This function will calculate the percentage of the given value and return the result
-    def Percentage(value, percentage):
+    def Percentage(self, value, percentage):
     	return (value*percentage)/100
     	
  
